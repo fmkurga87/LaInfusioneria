@@ -204,7 +204,6 @@ body {
 /* Productos Section */
 .productos-section {
     background-color: var(--bg-light);
-    padding-top: 100px;
     min-height: 100vh;
 }
 
@@ -391,6 +390,48 @@ body {
     margin-left: 0.5rem;
 }
 
+/* Panel informativo sobre tés fríos */
+.panel-tes-frios {
+    background-color: var(--bg-light);
+    padding: 1.5rem 0 0.75rem 0;
+}
+
+.panel-tes-frios-card {
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 2rem;
+}
+
+.panel-tes-frios-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.panel-tes-frios-item i {
+    font-size: 1.5rem;
+    color: #4A90E2;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.panel-tes-frios-content {
+    flex: 1;
+}
+
+.panel-tes-frios-text {
+    margin: 0;
+    color: var(--text-dark);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.icono-tes-frios-inline {
+    color: #4A90E2;
+    font-size: 1.1rem;
+}
+
 /* Información de Envío y Pago */
 .info-section {
     background-color: var(--bg-light);
@@ -510,6 +551,18 @@ body {
     }
 
     .info-text {
+        font-size: 0.9rem;
+    }
+
+    .panel-tes-frios {
+        padding: 1rem 0;
+    }
+
+    .panel-tes-frios-card {
+        padding: 1.25rem 1.5rem;
+    }
+
+    .panel-tes-frios-text {
         font-size: 0.9rem;
     }
 }
