@@ -290,7 +290,7 @@ body {
 .cucarda-nuevo {
     position: absolute;
     top: 0.5rem;
-    right: 0.5rem;
+    right: 2.5rem;
     z-index: 10;
     font-size: 0.8rem;
     font-weight: 700;
@@ -304,6 +304,7 @@ body {
     text-transform: uppercase;
     clip-path: polygon(50% 0%, 56% 26%, 75% 7%, 68% 32%, 93% 25%, 74% 44%, 100% 50%, 74% 56%, 93% 75%, 68% 68%, 75% 93%, 56% 74%, 50% 100%, 44% 74%, 25% 93%, 32% 68%, 7% 75%, 26% 56%, 0% 50%, 26% 44%, 7% 25%, 32% 32%, 25% 7%, 44% 26%);
 }
+
 
 .producto-card .col-auto {
     display: flex;
