@@ -287,6 +287,26 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
+.ribbon {
+    position: absolute;
+    top: 25px;
+    left: -60px;
+    width: 200px;
+    text-align: center;
+    transform: rotate(-45deg);
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+    background: rgba(255,255,255,0.8);
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    z-index: 10;
+}
+
+.sin-stock {
+    opacity: 0.5;
+}
+
 .cucarda-nuevo {
     position: absolute;
     top: 0.5rem;
